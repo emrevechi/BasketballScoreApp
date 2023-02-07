@@ -1,0 +1,73 @@
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #AC4A00;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+    gap: 10px;
+    max-width: 1000px;
+    max-height: 1200px;
+}
+
+.heading {
+font-family: 'Verdana';
+font-weight: 700;
+font-size: 40px;
+color: #EEEEEE;
+text-align: center;
+}
+
+.numbox {
+width: 155px;
+height: 120px;
+background: #190849;
+border-radius: 5px;
+align-items: center;
+margin: 0;
+}
+
+#homenum {
+font-family: 'Cursed Timer ULiL';
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #EC0A32;
+}
+
+#guestnum {
+font-family: 'Cursed Timer ULiL';
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #EC0A32;
+}
+
+.buttons {
+    width: 158px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-top: 10px;
+}
+
+.button {
+    box-sizing: border-box;
+    border: 2px solid #6EE7B7;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    background: #AC4A00;
+    color: #6EE7B7;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    padding: 2px;
+}
